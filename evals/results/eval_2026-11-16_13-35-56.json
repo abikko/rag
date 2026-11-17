@@ -1,0 +1,37 @@
+{
+  "dataset": "mteb/RuBQRetrieval",
+  "k": 10,
+  "n_documents": 56826,
+  "n_queries": 1692,
+  "missing_relevant_pairs": 0,
+  "queries_with_missing_relevant": 0,
+  "results": {
+    "bm25": {
+      "recall@10": 0.3751196104919509,
+      "mrr@10": 0.2836945101129498,
+      "ndcg@10": 0.27147497877496907,
+      "latency_ms_mean": 0.31608462493096634,
+      "latency_ms_p50": 0.28766699688276276,
+      "latency_ms_p95": 0.5563641512708273,
+      "zero_hit_rate": 0.5065011820330969
+    },
+    "dense": {
+      "recall@10": 0.8116908702015085,
+      "mrr@10": 0.7058569270891966,
+      "ndcg@10": 0.6859499887097253,
+      "latency_ms_mean": 8.706550441687705,
+      "latency_ms_p50": 7.987333498022053,
+      "latency_ms_p95": 9.78762709783041,
+      "zero_hit_rate": 0.1016548463356974
+    },
+    "hybrid": {
+      "recall@10": 0.6756585612968592,
+      "mrr@10": 0.45888354159630756,
+      "ndcg@10": 0.469782530208999,
+      "latency_ms_mean": 9.007097213929761,
+      "latency_ms_p50": 8.639229505206458,
+      "latency_ms_p95": 11.257557905628346,
+      "zero_hit_rate": 0.2074468085106383
+    }
+  }
+}
