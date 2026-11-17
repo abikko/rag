@@ -1,0 +1,5 @@
+.env
+data/docs.jsonl
+data/embeddings.npy
+__pycache__/
+*.pyc
